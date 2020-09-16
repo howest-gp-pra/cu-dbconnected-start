@@ -18,5 +18,5 @@
             </Menu>
             <StackPanel x:Name="paneel"/>
         </DockPanel>
-        <Label Content="Opgepast : pas App.xaml aan vooraleer je het programma opstart !" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.505" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Background="#FFF51818" FontSize="22"/>
+        <Label Content="Opgepast : open helper klasse en pas connectiestring nog aan !" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.505" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Background="#FFF51818" FontSize="22"/>
     </Grid></Window>
