@@ -19,30 +19,31 @@ namespace Pra.DBConnected.WPF
     /// </summary>
     public partial class WinCategorie : Window
     {
+        bool nieuweCategorie;
+
         public WinCategorie()
         {
             InitializeComponent();
         }
-        bool nieuweCategorie;
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
         }
-        private void lstCategorieen_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void LstCategorieen_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
         }
-        private void btnNieuw_Click(object sender, RoutedEventArgs e)
+        private void BtnNieuw_Click(object sender, RoutedEventArgs e)
         {
         }
-        private void btnWijzig_Click(object sender, RoutedEventArgs e)
+        private void BtnWijzig_Click(object sender, RoutedEventArgs e)
         {
         }
-        private void btnAnnuleren_Click(object sender, RoutedEventArgs e)
+        private void BtnAnnuleren_Click(object sender, RoutedEventArgs e)
         {
         }
-        private void btnBewaren_Click(object sender, RoutedEventArgs e)
+        private void BtnBewaren_Click(object sender, RoutedEventArgs e)
         {
         }
-        private void btnVerwijder_Click(object sender, RoutedEventArgs e)
+        private void BtnVerwijder_Click(object sender, RoutedEventArgs e)
         {
         }
     }

@@ -19,32 +19,33 @@ namespace Pra.DBConnected.WPF
     /// </summary>
     public partial class WinUitgevers : Window
     {
+        bool nieuweUitgever;
+
         public WinUitgevers()
         {
             InitializeComponent();
         }
-        bool nieuweUitgever;
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
         }
-        private void lstUitgevers_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void LstUitgevers_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
         }
 
-        private void btnNieuw_Click(object sender, RoutedEventArgs e)
+        private void BtnNieuw_Click(object sender, RoutedEventArgs e)
         {
         }
 
-        private void btnWijzig_Click(object sender, RoutedEventArgs e)
+        private void BtnWijzig_Click(object sender, RoutedEventArgs e)
         {
         }
-        private void btnAnnuleren_Click(object sender, RoutedEventArgs e)
+        private void BtnAnnuleren_Click(object sender, RoutedEventArgs e)
         {
         }
-        private void btnBewaren_Click(object sender, RoutedEventArgs e)
+        private void BtnBewaren_Click(object sender, RoutedEventArgs e)
         {
         }
-        private void btnVerwijder_Click(object sender, RoutedEventArgs e)
+        private void BtnVerwijder_Click(object sender, RoutedEventArgs e)
         {
         }
     }
